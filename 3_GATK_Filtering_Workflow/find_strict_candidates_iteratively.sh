@@ -12,7 +12,7 @@ OUTPUT_DIR="${EXP_DIR}/03_strict_candidate_search"
 mkdir -p "${OUTPUT_DIR}"
 
 PERCENTAGES=(3 5 7 10 15)
-VCF_SAMPLE_ORDER=("mt1" "mt2" "mt3" "mt4" "wt1" "wt2" "wt3" "wt4")
+VCF_SAMPLE_ORDER="mt1,mt2,mt3,mt4,wt1,wt2,wt3,wt4"
 THREADS=8
 
 # --- Define the strict biological filter expression ---
